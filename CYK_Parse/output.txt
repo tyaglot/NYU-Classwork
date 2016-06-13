@@ -1,0 +1,49 @@
+Fish swim in streams:
+With probability 2.1600003862381264E-5, the tree is:
+S 
+   Noun fish
+   VPWithPPList 
+      Verb swim
+      PP 
+         Prep in
+         Noun streams
+
+Fish in streams swim:
+With probability 1.152000177383434E-4, the tree is:
+S 
+   NP 
+      Noun fish
+      PP 
+         Prep in
+         Noun streams
+   Verb swim
+
+Amy ate fish for dinner:
+With probability 1.0080001230239921E-4, the tree is:
+S 
+   Noun amy
+   VerbAndObject 
+      Verb ate
+      NP 
+         Noun fish
+         PP 
+            Prep for
+            Noun dinner
+
+Amy ate fish for dinner on Tuesday:
+With probability 1.2902402343750183E-6, the tree is:
+S 
+   Noun amy
+   VerbAndObject 
+      Verb ate
+      NP 
+         Noun fish
+         PP 
+            Prep for
+            NP 
+               Noun dinner
+               PP 
+                  Prep on
+                  Noun tuesday
+Amy ate for:
+The sentence cannot be parsed
